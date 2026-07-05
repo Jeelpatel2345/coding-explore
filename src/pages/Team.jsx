@@ -7,7 +7,7 @@ function Team() {
             <div className="cards">
 
                 <div className="card">
-                    <h3>Devang Patel</h3>
+                    <h3>Alex Johnson</h3>
 
                     <h4>Team Leader</h4>
 
@@ -17,7 +17,7 @@ function Team() {
                 </div>
 
                 <div className="card">
-                    <h3>Tirth Shah</h3>
+                    <h3>Sarah Smith</h3>
 
                     <h4>Frontend Developer</h4>
 
@@ -27,7 +27,7 @@ function Team() {
                 </div>
 
                 <div className="card">
-                    <h3>Jaymeen Vaghela</h3>
+                    <h3>David Lee</h3>
 
                     <h4>Backend Developer</h4>
 
@@ -37,7 +37,7 @@ function Team() {
                 </div>
 
                 <div className="card">
-                    <h3>Raj Sangani</h3>
+                    <h3>Emily Brown</h3>
 
                     <h4>UI Designer</h4>
 
@@ -45,7 +45,6 @@ function Team() {
                         Creates modern and user-friendly layouts.
                     </p>
                 </div>
-
 
             </div>
 

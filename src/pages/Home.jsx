@@ -10,7 +10,8 @@ function Home() {
 
             <section className="join-section">
 
-                <h2>Why Students Join Us</h2>
+                <h1>Why Students Join Us</h1>
+
 
                 <div className="cards">
 

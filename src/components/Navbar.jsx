@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
     return (
         <nav className="navbar">
-            <h2>Coding Club</h2>
+            <div className="logo"> Coding Club</div>
 
-            <ul>
+            <ul className="nav-links">
                 <li>
                     <NavLink
                         to="/"
