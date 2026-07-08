@@ -23,6 +23,11 @@ function Navbar() {
                         Team
                     </NavLink>
                 </li>
+                <NavLink to="/events">
+
+                    Events
+
+                </NavLink>
             </ul>
         </nav>
     );

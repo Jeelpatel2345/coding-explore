@@ -1,0 +1,193 @@
+/* ===================================== */
+/* Event Hero */
+/* ===================================== */
+
+.event-hero {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 120px 8%;
+
+    background: linear-gradient(135deg,
+            #f8fbff,
+            #ffffff);
+
+}
+
+.event-container {
+
+    max-width: 1400px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 80px;
+
+    align-items: center;
+
+}
+
+.event-left h1 {
+
+    font-size: 64px;
+
+    line-height: 1.2;
+
+    color: #1e293b;
+
+    margin: 25px 0;
+
+}
+
+.event-left h1 span {
+
+    color: #2563eb;
+
+}
+
+.event-tag {
+
+    display: inline-block;
+
+    padding: 10px 22px;
+
+    border-radius: 40px;
+
+    background: #dbeafe;
+
+    color: #2563eb;
+
+    font-weight: 600;
+
+}
+
+.event-left p {
+
+    font-size: 18px;
+
+    line-height: 1.9;
+
+    color: #64748b;
+
+    margin-bottom: 40px;
+
+}
+
+.event-buttons {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.primary-btn {
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 16px 34px;
+
+    border-radius: 50px;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.primary-btn:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.secondary-btn {
+
+    background: white;
+
+    border: 2px solid #2563eb;
+
+    color: #2563eb;
+
+    padding: 16px 34px;
+
+    border-radius: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.secondary-btn:hover {
+
+    background: #2563eb;
+
+    color: white;
+
+}
+
+.event-right img {
+
+    width: 100%;
+
+    border-radius: 30px;
+
+    box-shadow: 0 30px 60px rgba(0, 0, 0, .12);
+
+}
+
+@media(max-width:900px) {
+
+    .event-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .event-left {
+
+        text-align: center;
+
+    }
+
+    .event-buttons {
+
+        justify-content: center;
+
+    }
+
+    .event-left h1 {
+
+        font-size: 46px;
+
+    }
+
+}

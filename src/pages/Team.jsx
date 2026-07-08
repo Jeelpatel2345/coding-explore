@@ -1,54 +1,30 @@
+import TeamHero from "../components/TeamHero";
+import Leadership from "../components/Leadership";
+import Members from "../components/Members";
+import JoinTeam from "../components/JoinTeam";
+
 function Team() {
     return (
-        <div className="container">
+        <>
+            {/* Hero Section */}
+            <TeamHero />
 
-            <h1>Meet Our Team</h1>
+            {/* Team Section (Coming Next) */}
+            <section className="team-container">
 
-            <div className="cards">
+            </section>
 
-                <div className="card">
-                    <h3>Alex Johnson</h3>
+            {/* Leadership Section */}
+            <Leadership />
 
-                    <h4>Team Leader</h4>
+            {/* Members Section */}
+            <Members />
 
-                    <p>
-                        Leads the team and manages all student activities.
-                    </p>
-                </div>
+            {/* Join Team Section */}   
+            <JoinTeam />
 
-                <div className="card">
-                    <h3>Sarah Smith</h3>
 
-                    <h4>Frontend Developer</h4>
-
-                    <p>
-                        Designs responsive interfaces using React.
-                    </p>
-                </div>
-
-                <div className="card">
-                    <h3>David Lee</h3>
-
-                    <h4>Backend Developer</h4>
-
-                    <p>
-                        Works on server-side logic and APIs.
-                    </p>
-                </div>
-
-                <div className="card">
-                    <h3>Emily Brown</h3>
-
-                    <h4>UI Designer</h4>
-
-                    <p>
-                        Creates modern and user-friendly layouts.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
+        </>
     );
 }
 
